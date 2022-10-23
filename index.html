@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather">
+            <div class="weather__convert">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="weather__now">
+                <div class="weather__city">-</div>
+                <div class="weather__temp">-</div>
+                <div class="weather__description">-</div>
+                <div class="weather__wind">-</div>
+            </div>
+
+            <div class="weather__future">
+                <div class="weather__day0">
+                    <div class="weather__day0__day">-</div>
+                    <div class="weather__day0__temperature">-</div>
+                    <div class="weather__day0__wind">-</div>
+                </div>
+                <div class="weather__day1">
+                    <div class="weather__day1__day">-</div>
+                    <div class="weather__day1__temperature">-</div>
+                    <div class="weather__day1__wind">-</div>
+                </div>
+                <div class="weather__day2">
+                    <div class="weather__day2__day">-</div>
+                    <div class="weather__day2__temperature">-</div>
+                    <div class="weather__day2__wind">-</div>
+                </div>
+            </div>
+
+            <div class="weather__search">
+                <input type="text" id="city" name="city" value="Vilnius"><br><br>
+                <div>
+                    <a href="#" class="button btn--new-city">Search</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
