@@ -15,39 +15,53 @@
 <body>
     <div class="container">
         <div class="weather">
-            <div class="weather__convert">
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>
+            <div class="weather__error">
+
             </div>
-            <div class="weather__now">
-                <div class="weather__city">-</div>
-                <div class="weather__temp">-</div>
-                <div class="weather__description">-</div>
-                <div class="weather__wind">-</div>
+            <div class="weather__data">
+                <div class="weather__now">
+                    <div class="weather__city">-</div>
+                    <div class="weather__temp">-</div>
+                    <div class="weather__description">-</div>
+                    <div class="weather__wind">-</div>
+                </div>
+
+                <div class="weather__future">
+                    <div class="weather__day0">
+                        <div class="weather__day0__day">-</div>
+                        <div class="weather__day0__temperature">-</div>
+                        <div class="weather__day0__wind">-</div>
+                    </div>
+                    <div class="weather__day1">
+                        <div class="weather__day1__day">-</div>
+                        <div class="weather__day1__temperature">-</div>
+                        <div class="weather__day1__wind">-</div>
+                    </div>
+                    <div class="weather__day2">
+                        <div class="weather__day2__day">-</div>
+                        <div class="weather__day2__temperature">-</div>
+                        <div class="weather__day2__wind">-</div>
+                    </div>
+                </div>
+                <div class="weather__convert">
+                    <label class="weather__switch">
+                        <input type="checkbox" class="weather__convertInput" checked>
+
+                        <span class="weather__slider">
+                            <div class="weather__convert__celsius">
+                                C
+                            </div>
+                            <div class="weather__convert__fahrenheit">
+                                F
+                            </div>
+                        </span>
+                    </label>
+                </div>
             </div>
 
-            <div class="weather__future">
-                <div class="weather__day0">
-                    <div class="weather__day0__day">-</div>
-                    <div class="weather__day0__temperature">-</div>
-                    <div class="weather__day0__wind">-</div>
-                </div>
-                <div class="weather__day1">
-                    <div class="weather__day1__day">-</div>
-                    <div class="weather__day1__temperature">-</div>
-                    <div class="weather__day1__wind">-</div>
-                </div>
-                <div class="weather__day2">
-                    <div class="weather__day2__day">-</div>
-                    <div class="weather__day2__temperature">-</div>
-                    <div class="weather__day2__wind">-</div>
-                </div>
-            </div>
 
             <div class="weather__search">
-                <input type="text" id="city" name="city" value="Vilnius"><br><br>
+                <input type="text" id="city" name="city" value="London"><br><br>
                 <div>
                     <a href="#" class="button btn--new-city">Search</a>
                 </div>
